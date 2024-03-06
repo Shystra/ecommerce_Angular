@@ -19,7 +19,7 @@ export class LoginComponent {
   }
 
   onLogin() {
-    if (this.loginObj.userName == 'admin' && this.loginObj.password == "334455") {
+    if (this.loginObj.userName == 'admin' && this.loginObj.password == "1234") {
       this.router.navigateByUrl('/products')
     } else (
       alert("Wrong Crentials")
